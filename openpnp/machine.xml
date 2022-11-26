@@ -453,6 +453,7 @@
                <text><![CDATA[rs485-reply: (?<Value>.*)]]></text>
             </command>
             <command type="HOME_COMMAND">
+               <text><![CDATA[M92 Y-1280 ; Reverse direction of Y axis]]></text>
                <text><![CDATA[G28 ; Home all axes]]></text>
             </command>
             <command type="MOVE_TO_COMMAND">
